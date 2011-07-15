@@ -1,0 +1,81 @@
+form#frmEmpJobDetails label, form#frmEmpJobDetails textarea {
+    margin-top: 5px;
+}
+
+form#frmEmpJobDetails select {
+    width: 320px;
+}
+
+form#frmEmpJobDetails textarea {
+    width: 310px;
+}
+
+form#frmEmpJobDetails file {
+    width: 310px;
+}
+
+h4 {
+    margin-left: 20px;
+}
+
+form#frmEmpJobDetails div.error {
+    margin-left: 140px;
+    margin-top: 1px;
+}
+
+ul.radio_list { list-style: none; margin-left: 135px; }
+ul.radio_list li { display: inline; }
+ul.radio_list li label { display: inline; padding-left:5px; width:100px; margin-top: 5px;}
+ul.radio_list li input { float:left; margin-top:5px; }
+
+div#job_spec_name {
+   color: #444444;
+   display: block;
+   float: left;
+   width: 310px;
+   margin-top: 5px;
+   border: 1px solid #888888;
+   padding: 1px 4px;
+   min-height: 16px;
+}
+
+a#viewDetailsLink {
+    display: block;
+    float: left;
+    padding-left: 5px;
+    padding-top: 6px;
+}
+
+div#job_spec_details label {
+    margin-left: 20px;    
+    width: 100px;
+}
+
+a.fileLink {
+    float: left;
+    padding-left: 0px;
+}
+
+#contractEdidMode {
+    margin-top: 4px;
+}
+
+#contractReadMode {
+    padding-bottom: 10px;
+}
+
+#notDefinedLabel {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.paddingLeftRequired {
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 8pt;
+}
+
+.commonUploadHelp {
+    margin-left: 140px;
+    font-size: 11px;
+}

@@ -1,0 +1,27 @@
+Default:
+  hasSelectableRows: false
+  unselectableRowIds: []
+  idValueGetter: getId
+  title: 'OrangeHRM List'
+  buttons: []
+  formMethod: post
+  formAction: '#'
+  assets: []
+
+Nationality:
+  hasSelectableRows: true
+  unselectableRowIds: []
+  idValueGetter: getNatCode
+  title: 'Nationality & Race : Nationality'
+  buttons:
+    Add:
+      label: Add
+      function: addNationality
+    Delete:
+      label: Delete
+      type: submit
+  formMethod: post
+  formAction: '#'
+  assets:
+    - nationality.js
+    - nationality.css

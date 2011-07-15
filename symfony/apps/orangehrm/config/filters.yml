@@ -1,0 +1,13 @@
+rendering: ~
+security:  ~
+
+# insert your own filters here
+exceptionCatcherFilter:
+  class: ExceptionCatcherFilter
+i18nFilter:
+  class: OrangeI18NFilter
+
+cache:     ~
+common:
+  class: sfCommonFilter
+execution: ~
